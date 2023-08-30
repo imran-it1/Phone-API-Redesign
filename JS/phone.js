@@ -15,6 +15,8 @@ const phoneCard = (phones, showAll) => {
   const searchError = document.getElementById("search-error");
   if (phones.length === 0) {
     searchError.classList.remove("hidden");
+  } else {
+    searchError.classList.add("hidden");
   }
 
   // Show all a je click kora hoice setar information asce kina check korte
